@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
             val generativeModel = GenerativeModel(
                 // For text-only input, use the gemini-pro model
                 modelName = "gemini-pro",
-                apiKey = "AIzaSyD0FrRGIyd4UACwan9bccUKpaTSk-sixng"
+                apiKey = ""
                 // ENTER YOUR KEY
             )
             runBlocking {
